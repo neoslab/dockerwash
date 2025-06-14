@@ -89,3 +89,9 @@ Use only when you're absolutely sure you want to wipe your Docker environment.
 ## License
 
 This script is open source under the [MIT License](LICENSE).
+
+* * *
+
+### Contact
+
+Created by [@neoslab](https://neoslab.com/contact/) – Feel free to reach out!
