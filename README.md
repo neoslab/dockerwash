@@ -1,5 +1,8 @@
 # Docker Full Cleanup Script
 
+![Bash Version](https://img.shields.io/badge/bash-5.2.37%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 This is a powerful and **destructive** bash script that **removes all Docker containers, images, volumes, and networks** from your system. It's designed to give you a completely clean Docker environment — useful when you're troubleshooting, starting fresh, or reclaiming disk space.
 
 > **WARNING:** This script will **delete all your Docker data** irreversibly. Use with extreme caution.
@@ -54,7 +57,7 @@ Are you sure? (y/N): y
 
 * * *
 
-## Safety Mechanism
+#### Safety Mechanism
 
 The script includes a confirmation prompt to prevent accidental execution:
 
@@ -66,7 +69,7 @@ Only if you respond with `y` (lowercase) will the cleanup proceed.
 
 * * *
 
-## What Will Be Deleted?
+#### What Will Be Deleted?
 
 | Resource   | Deleted?                                                  |
 | ---------- | --------------------------------------------------------- |
@@ -78,7 +81,7 @@ Only if you respond with `y` (lowercase) will the cleanup proceed.
 
 * * *
 
-## Disclaimer
+### Disclaimer
 
 This script is **irreversible**. Once executed, **all data** managed by Docker on your system **will be lost**.
 
@@ -86,12 +89,26 @@ Use only when you're absolutely sure you want to wipe your Docker environment.
 
 * * *
 
-## License
+## Contributing
 
-This script is open source under the [MIT License](LICENSE).
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Make your changes and commit them (`git commit -m "Add your feature"`).
+4. Push to your branch (`git push origin feature/your-feature`).
+5. Open a pull request with a clear description of your changes.
+
+Ensure your code follows PEP 8 style guidelines and includes appropriate tests.
 
 * * *
 
-### Contact
+## License
 
-Created by [@neoslab](https://neoslab.com/contact/) – Feel free to reach out!
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+* * *
+
+## Contact
+
+For issues, suggestions, or questions, please open an issue on GitHub or contact the maintainer at [GitHub Issues](https://github.com/neoslab/dockerwash/issues).
